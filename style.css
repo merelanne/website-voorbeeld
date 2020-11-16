@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(255, 204, 184);  
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font: Verdana, Sans-Serif;
 }
 
 
@@ -23,8 +23,10 @@ article {
 
 
 header {
-    color: skyblue;
+    color: salmon;
     text-align: center;
+    border: 2px dashed white;
+    margin-bottom: 2px;
 }
 
 
@@ -46,12 +48,13 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: salmon;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    border: 2px dashed rgb(255, 204, 184);
 }
 
 
@@ -60,7 +63,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(252, 178, 170);
     overflow: hidden;
 }
 
@@ -74,14 +77,18 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border: 2px dashed white;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: white;
+    color: rgb(252, 178, 170);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: salmon;
 }
 
 
